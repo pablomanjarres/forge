@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded rectangle background -->
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <!-- Anvil - high contrast -->
+  <g transform="translate(512, 530)">
+    <!-- Anvil body -->
+    <path d="M-140 100 L-120 -10 L-90 -10 L-90 -70 L120 -70 L120 -10 L200 -10 L190 30 L130 30 L110 100 Z" fill="rgba(0,0,0,0.55)"/>
+    <!-- Horn -->
+    <path d="M-120 -10 L-250 15 L-245 40 L-90 -10 Z" fill="rgba(0,0,0,0.55)"/>
+    <!-- Base -->
+    <path d="M-170 100 L-190 160 L220 160 L200 100 Z" fill="rgba(0,0,0,0.55)"/>
+    <!-- Face highlight (top surface) -->
+    <path d="M-90 -70 L120 -70 L120 -55 L-90 -55 Z" fill="rgba(255,255,255,0.2)"/>
+    <!-- Sparks -->
+    <path d="M-20 -130 L0 -200 L10 -150 L25 -220 L30 -140 Z" fill="url(#spark)" opacity="0.9"/>
+    <circle cx="-70" cy="-170" r="10" fill="white" opacity="0.85"/>
+    <circle cx="70" cy="-180" r="8" fill="white" opacity="0.75"/>
+    <circle cx="-20" cy="-230" r="6" fill="white" opacity="0.65"/>
+    <circle cx="100" cy="-140" r="5" fill="white" opacity="0.6"/>
+  </g>
+</svg>
