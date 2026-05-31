@@ -10,3 +10,6 @@ tasks/
 .env.local
 .env.*.local
 
+
+# nella index cache (tooling artifact)
+.nella/
