@@ -17,7 +17,7 @@ Forge is a native macOS desktop app that unifies AI media generation, coding-age
 ## Highlights
 
 - **AI-to-Remotion pipeline.** Describe a video in plain English. Gemini returns a schema-constrained component; Forge writes a self-contained `.tsx` under `src/ai-generated/<id>/` with an isolated entry that registers only that composition, runs `remotion render`, and streams the log to the UI. The source project's `Root.tsx` is never touched.
-- **Built-in MCP server.** 11 tools over JSON-RPC/stdio — `forge_generate_image`, `forge_generate_video`, `forge_generate_audio`, `forge_list_repos`, `forge_read_repo_file`, `forge_list_templates`, `forge_create_template`, `forge_list_media` — let Claude or any agent operate Forge headlessly. (Image edit, upscale, and template-run are declared but still stubbed on the MCP surface.)
+- **Built-in MCP server.** 11 tools over JSON-RPC/stdio (`forge_generate_image`, `forge_generate_video`, `forge_generate_audio`, `forge_list_repos`, `forge_read_repo_file`, `forge_list_templates`, `forge_create_template`, `forge_list_media`) let Claude or any agent operate Forge headlessly. (Image edit, upscale, and template-run are declared but still stubbed on the MCP surface.)
 - **Four backends, one surface.** Gemini for image/video/speech/chat, ElevenLabs for voice, RunPod serverless GPU for Qwen-Edit / RealESRGAN / Qwen3-TTS, and the OpenAI Codex CLI run as a subprocess agent.
 - **Per-purpose key routing.** A pool of Gemini API keys where image, video, audio, chat, and agent tasks each pin to their own key and model.
 - **Live streaming.** Agent output and Remotion render logs are pushed over WebSocket as they happen, each message tagged with its `taskId` so the UI can follow one run.
@@ -73,7 +73,7 @@ claude mcp add forge -- node /absolute/path/to/forge/server/mcp-server.ts
 Keys are added in-app on the Providers page (encrypted via `safeStorage`). For headless dev the server also reads env fallbacks:
 
 ```bash
-# .env  — placeholders only, never commit real keys
+# .env: placeholders only, never commit real keys
 FORGE_PORT=3400
 FORGE_REMOTION_DIR=/absolute/path/to/remotion-demos
 FORGE_GEMINI_API_KEY=your-gemini-key
