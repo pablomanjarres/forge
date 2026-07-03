@@ -1,4 +1,4 @@
-<p align="center"><a href="https://pablo-oss.vercel.app/forge"><img src=".github/banner.png" alt="Forge" width="100%" /></a></p>
+<p align="center"><a href="https://pablomanjarres.com/oss/forge"><img src=".github/banner.png" alt="Forge" width="100%" /></a></p>
 
 <h1 align="center">Forge</h1>
 
@@ -19,7 +19,7 @@
   <img alt="Status: alpha" src="https://img.shields.io/badge/status-alpha_(v0.1.0)-F59E0B?style=flat-square" />
   <img alt="Platform: macOS" src="https://img.shields.io/badge/platform-macOS-111111?style=flat-square&logo=apple&logoColor=white" />
   <a href="https://pablomanjarres.com/portfolio/projects/forge"><img alt="Portfolio write-up" src="https://img.shields.io/badge/Portfolio-write--up-EA580C?style=flat-square&logo=readme&logoColor=white" /></a>
-  <a href="https://pablo-oss.vercel.app/forge"><img alt="Landing page" src="https://img.shields.io/badge/Landing-pablo--oss-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+  <a href="https://pablomanjarres.com/oss/forge"><img alt="Landing page" src="https://img.shields.io/badge/Landing-pablo--oss-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -255,7 +255,7 @@ Forge is released under the [MIT License](https://opensource.org/licenses/MIT).
 ---
 
 <p align="center">
-  <a href="https://pablo-oss.vercel.app/forge">Landing page</a>
+  <a href="https://pablomanjarres.com/oss/forge">Landing page</a>
   &nbsp;·&nbsp;
   <a href="https://pablomanjarres.com/portfolio/projects/forge">Portfolio write-up</a>
   &nbsp;·&nbsp;
