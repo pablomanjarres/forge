@@ -1,0 +1,25 @@
+{
+  "name": "@forge/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Forge video MCP — create Remotion + generative (Veo) videos from Claude Desktop",
+  "bin": {
+    "forge-mcp": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
